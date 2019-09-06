@@ -3,6 +3,8 @@ if hungry=='yes':
     print("eat samosa")
     print("eat fries")
 else:
-    print("do your homework")
-
+    thirsty=input("are you thirsty?")
+    if thirsty=='yes':
+	print("drink water")
+	print("drink soda")
 print("Testing change 2 with difftool")
